@@ -1,4 +1,4 @@
 # Add  code here!
-def prime?(n)
-  n(2..n-1).none? {|i| n % 1 == 0}
+def prime?(integer)
+  (2..integer-1).none? {|i| integer % i == 0}
 end
