@@ -2,5 +2,5 @@
 def is_prime(int)
   return false if int < 2
 
-  (2..n/2).none?{|i| n % i == 0}
+  (2..int/2).none?{|i| n % i == 0}
 end
