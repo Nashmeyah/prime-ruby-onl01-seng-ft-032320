@@ -1,10 +1,4 @@
 # Add  code here!
-def is_prime(int)
-  if int <=1
-    false
-  elsif int ==2
-    true
-  else
-  (2..int/2).none?{|i| n % i == 0}
-end
+def is_prime(n)
+  n(2..n-1).none? {|i| n % 1 == 0}
 end
